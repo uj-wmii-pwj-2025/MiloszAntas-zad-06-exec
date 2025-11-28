@@ -1,6 +1,5 @@
 package uj.wmii.pwj.exec;
 
-import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -24,7 +23,7 @@ public class MyExecService implements ExecutorService {
                 }
             }
             catch (Exception e) {
-                // do thing?
+                // do nothing I think
             }
             finally {
                 synchronized (threadLock) {
